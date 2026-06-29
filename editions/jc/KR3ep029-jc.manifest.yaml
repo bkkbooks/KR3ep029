@@ -1,0 +1,44 @@
+canonical_identifier: bkk:krp/KR3ep029/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3ep029/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 花韻樓醫案
+  identifiers:
+    krp: KR3ep029
+  tags:
+    kr-categories: KR3ep
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ep029.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3ep029_000-jc.yaml, hash: 'sha256:f1499b5f7088dffb2635b7963bc045872001a7799226a7c020eb5eced1a97c46'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ep029_000-jc.markers.yaml, hash: 'sha256:0d303ff207211fe23418ce6ae3e2d39fec6134e0e0d639d79f65919cceab9628'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ep029_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 260
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep029_jc_000-d3.h1s1
+    span:
+    - body
+    - 0
+    - 11746
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:8ce7e2fca42a3e037fa953b361a688be1dade274cfa2e95cac50f08b4e128af2
